@@ -44,12 +44,18 @@ p{
 }
 .section{
   display: flex;
-  width: 49vw;
+  width: 48vw;
   border: 1px solid black;
-  padding: .5rem;
 }
-.section .column{
+.section100{
+  width: 100%;
+
+}
+.column{
   flex-direction: column;
+}
+.center{
+  text-align: center;
 }
 /******************************************
 /* ADDITIONAL STYLES
