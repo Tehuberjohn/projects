@@ -14,12 +14,12 @@ body{
 /******************************************
 /* LAYOUT
 /*******************************************/
-img{
+img, iframe{
   flex: 2 0 0;
   display: block;
   margin: 0 auto;
   min-width:70vw;
-  max-height: 80vh;
+  height: 80vh;
 }
 div{
   flex: 2 0 0;
@@ -37,7 +37,10 @@ div{
   flex: 2 0 0;
   padding: 0 2rem;
 }
-.img{
+.hidden{
+  display: none;
+}
+.img, iframe{
   flex: 7 0 0;
   align-self: flex-start;
   text-align: center;
