@@ -14,6 +14,7 @@ body{
   font-size: 1.5rem;
 }
 .heading{
+  font-weight: bold;
   font-size: 2rem;
   height: 2vh;
   width: 100%;
@@ -28,7 +29,7 @@ body{
 img{
   display: block;
   max-width: 48vw;
-  max-height: 80vh;
+  max-height: 94vh;
   align-self: flex-start;
   margin: 0 auto;
 }
@@ -55,7 +56,16 @@ p{
   flex-direction: column;
 }
 .center{
+  justify-content: center;
   text-align: center;
+}
+.marginTop{
+  margin-top: 1rem;
+}
+#main{
+  padding: 2rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
 }
 /******************************************
 /* ADDITIONAL STYLES
