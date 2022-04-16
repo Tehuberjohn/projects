@@ -27,10 +27,15 @@ function getFetch(){
         li.value = data.types[i].type.name
         li.innerText = data.types[i].type.name
         ul.appendChild(li)
+        fetch(idUrl)
+        .then(res => res.json()) // parse response as JSON
+        .then(data => {
+          let flavorText = data.flavor_text_entries[0].flavor_text
+          docId('about').innerText = flavorText.replace('\f', ' ').replace('\n', ' ')
+        })
       }
       })
       .catch(err => {
           console.log(`error ${err}`)
-      });
+      })
 }
-

@@ -8,9 +8,20 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 62.75;
+  color: white;
+  letter-spacing: 3px;
+  word-spacing: .05rem;
 }
 body{
   background-color: rgb(104, 21, 21);
+}
+p{
+  width: 100%;
+  font-size: 2rem;
+}
+input,button{
+  color: black;
+  width: 10vw;
 }
 
 /******************************************
