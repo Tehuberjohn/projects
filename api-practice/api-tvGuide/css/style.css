@@ -10,17 +10,22 @@
 body{
   color: white;
   background-color: rgb(66, 64, 70);
+  background-image: url(/img/blackDots.png);
   margin: 1.8rem;
   font-size: 1.5rem;
+}
+header{
+  margin-top: 10rem;
 }
 .heading{
   font-weight: bold;
   font-size: 2rem;
   height: 2vh;
   width: 100%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 4rem;
 }
 .header{
+  margin-top: 10rem;
   margin-bottom: 2rem;
 }
 /******************************************
@@ -28,6 +33,7 @@ body{
 /*******************************************/
 img{
   display: block;
+  padding: 10rem 0;
   max-width: 48vw;
   max-height: 94vh;
   align-self: flex-start;

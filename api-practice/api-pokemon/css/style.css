@@ -1,0 +1,75 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.75;
+}
+body{
+  background-color: rgb(104, 21, 21);
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  border: 1px solid black;
+}
+img{
+  min-height: 25vh;
+  background-color: rgb(204, 198, 198);
+  border: 1px solid black;
+}
+ul{
+  white-space: nowrap;
+  list-style: none;
+}
+li{
+  display: inline-block;
+  margin-top: .5rem;
+  padding-right: 20%;
+}
+.center{
+  text-align: center;
+}
+.wrapper{
+  height: 100vh;
+  width: 100vw;
+  border: 1px solid black;
+}
+.container{
+  display: flex;
+  padding: 2rem;
+  width: 100vw;
+  height: 90vh;
+}
+.container>section{
+  border: 1px solid black;
+  height: 90vh;
+  width: 50vw;
+}
+.heading{
+  width: 100%;
+  font-size: 2rem;
+}
+.dexInfo{
+  flex-direction: row;
+  margin: 1rem 40%;
+
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
